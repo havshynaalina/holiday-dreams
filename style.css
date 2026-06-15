@@ -1,0 +1,84 @@
+:root {
+    --color-primary: #ff6b35;
+    --color-dark: #1a1a2e;
+    --color-bg: #f8f9fa;
+    --color-text: #666666;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: large;
+    color: var(--color-dark);
+}
+
+h3 {
+    font-weight: bold;
+    font-size: medium;
+    color: var(--color-dark);
+}
+
+p {
+    font-weight: lighter;
+    color: var(--color-text);
+}
+
+
+.header{
+    background: transparent;
+
+}
+
+.hero  {
+    background-image: url('img/desk-header\ 1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+      
+    color: var(--color-bg);
+}
+
+.hero-container {
+    display: grid;
+    place-items: center;
+}
+
+.log-in {
+    font-weight: bold;
+    font-size: medium;
+
+    color: var(--color-bg);
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.sing-up {
+    font-weight: bold;
+    font-size: medium;
+
+    color: var(--color-bg);
+    background-color: transparent;
+    border: 3px solid var(--color-bg);
+    border-radius: 15px;
+
+    padding: 8px;
+}
+
+@media (min-width: 768px) {
+    
+.hero {
+        background-image: url('img/desk-header\ 1.png');
+        height: 500px;
+        width: 200px;
+
+        color: var(--color-bg);
+    }
+    
+}
