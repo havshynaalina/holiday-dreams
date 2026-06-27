@@ -179,6 +179,7 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0;
 }
 
 .footer h2 {
@@ -302,6 +303,13 @@ footer {
     cursor: pointer;  
 }
 
+.mini_footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--color-text);
+    margin: 0;
+}
 
 @media (min-width: 786px) {
 
@@ -346,8 +354,6 @@ footer {
         display: flex;
         justify-content: center;
     }
-
-
 
     .image {
         margin-bottom: 30px;
@@ -422,7 +428,6 @@ footer {
         max-width: 250px;
     }
 
-
     .first_cards {
         display: flex;
         justify-content: center;
@@ -462,8 +467,8 @@ footer {
     .people {
         display: flex;
         flex-direction: column;
-
-
+        
+        
         height: auto;
         align-items: center;
         gap: 30px;
@@ -476,7 +481,6 @@ footer {
 
         text-align: center;
         max-width: 220px;
-        margin: 30px;
     }
 
     .card img {
@@ -597,17 +601,13 @@ footer {
 
     }
 
-    .first_cardss_2 {
+    .footer_card {
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
+        gap: 50px;
     }
 
-    .second_cardss_2 {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
 
     * {
         font-family: 'Montserrat', sans-serif;
@@ -773,12 +773,7 @@ footer {
 
     }
 
-    .footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+
 
     .footer h2 {
         margin: 0;
@@ -788,7 +783,7 @@ footer {
         color: var(--color-dark);
     }
 
-    .footer>p {
+    .footer p {
         max-width: 500px;
         margin: 25px 0 50px;
         font-size: 18px;
@@ -870,5 +865,40 @@ footer {
         justify-content: center;
         flex-direction: row;
     }
+
+    .mini_footer {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: var(--color-text);
+        margin: 0;
+    }
+   
+
+
 }
 
+@media (min-width: 1024px) {
+   
+    .des {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .foo_ch {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+
+
+    .foo_des {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+}
